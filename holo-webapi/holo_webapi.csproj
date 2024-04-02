@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>holo_webapi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\holo_webapi.Common\holo_webapi.Common.csproj" />
+    <ProjectReference Include="..\holo_webapi.Model\holo_webapi.Model.csproj" />
+    <ProjectReference Include="..\holo_webapi.Service\holo_webapi.Service.csproj" />
+  </ItemGroup>
+
+</Project>

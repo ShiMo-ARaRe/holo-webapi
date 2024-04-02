@@ -1,0 +1,15 @@
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\bin\Debug\net6.0\holo_webapi.Common.deps.json
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\bin\Debug\net6.0\holo_webapi.Common.dll
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\bin\Debug\net6.0\holo_webapi.Common.pdb
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\bin\Debug\net6.0\holo_webapi.Model.dll
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\bin\Debug\net6.0\holo_webapi.Model.pdb
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\obj\Debug\net6.0\holo_webapi.Common.csproj.AssemblyReference.cache
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\obj\Debug\net6.0\holo_webapi.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\obj\Debug\net6.0\holo_webapi.Common.AssemblyInfoInputs.cache
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\obj\Debug\net6.0\holo_webapi.Common.AssemblyInfo.cs
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\obj\Debug\net6.0\holo_webapi.Common.csproj.CoreCompileInputs.cache
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\obj\Debug\net6.0\holo_web.9BD44810.Up2Date
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\obj\Debug\net6.0\holo_webapi.Common.dll
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\obj\Debug\net6.0\refint\holo_webapi.Common.dll
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\obj\Debug\net6.0\holo_webapi.Common.pdb
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Common\obj\Debug\net6.0\ref\holo_webapi.Common.dll

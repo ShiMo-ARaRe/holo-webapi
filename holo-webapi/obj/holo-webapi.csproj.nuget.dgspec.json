@@ -1,0 +1,306 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo-webapi\\holo-webapi.csproj": {}
+  },
+  "projects": {
+    "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo-webapi\\holo-webapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo-webapi\\holo-webapi.csproj",
+        "projectName": "holo-webapi",
+        "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo-webapi\\holo-webapi.csproj",
+        "packagesPath": "C:\\Users\\zhijiefei\\.nuget\\packages\\",
+        "outputPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo-webapi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zhijiefei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj": {
+                "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj"
+              },
+              "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj": {
+                "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj"
+              },
+              "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Service\\holo_webapi.Service.csproj": {
+                "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Service\\holo_webapi.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj",
+        "projectName": "holo_webapi.Common",
+        "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj",
+        "packagesPath": "C:\\Users\\zhijiefei\\.nuget\\packages\\",
+        "outputPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zhijiefei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj": {
+                "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.149, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj",
+        "projectName": "holo_webapi.Model",
+        "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj",
+        "packagesPath": "C:\\Users\\zhijiefei\\.nuget\\packages\\",
+        "outputPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zhijiefei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.149, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Service\\holo_webapi.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Service\\holo_webapi.Service.csproj",
+        "projectName": "holo_webapi.Service",
+        "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Service\\holo_webapi.Service.csproj",
+        "packagesPath": "C:\\Users\\zhijiefei\\.nuget\\packages\\",
+        "outputPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zhijiefei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj": {
+                "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj"
+              },
+              "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj": {
+                "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

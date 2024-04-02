@@ -1,0 +1,17 @@
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\bin\Debug\net6.0\holo_webapi.Service.deps.json
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\bin\Debug\net6.0\holo_webapi.Service.dll
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\bin\Debug\net6.0\holo_webapi.Service.pdb
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\bin\Debug\net6.0\holo_webapi.Common.dll
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\bin\Debug\net6.0\holo_webapi.Model.dll
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\bin\Debug\net6.0\holo_webapi.Common.pdb
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\bin\Debug\net6.0\holo_webapi.Model.pdb
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\holo_webapi.Service.csproj.AssemblyReference.cache
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\holo_webapi.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\holo_webapi.Service.AssemblyInfoInputs.cache
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\holo_webapi.Service.AssemblyInfo.cs
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\holo_webapi.Service.csproj.CoreCompileInputs.cache
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\holo_web.496CAE90.Up2Date
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\holo_webapi.Service.dll
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\refint\holo_webapi.Service.dll
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\holo_webapi.Service.pdb
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\ref\holo_webapi.Service.dll

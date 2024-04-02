@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCD3BD3-257D-49FC-985B-04D511AA3DEA}|holo_webapi.Model\\holo_webapi.Model.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.model\\entitys\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCD3BD3-257D-49FC-985B-04D511AA3DEA}|holo_webapi.Model\\holo_webapi.Model.csproj|solutionrelative:holo_webapi.model\\entitys\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92613B6-7604-4761-ABD4-EE694C7F3E3F}|holo_webapi.Common\\holo_webapi.Common.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.common\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92613B6-7604-4761-ABD4-EE694C7F3E3F}|holo_webapi.Common\\holo_webapi.Common.csproj|solutionrelative:holo_webapi.common\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|solutionrelative:holo-webapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\controllers\\toolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|solutionrelative:holo-webapi\\controllers\\toolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCD3BD3-257D-49FC-985B-04D511AA3DEA}|holo_webapi.Model\\holo_webapi.Model.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.model\\entitys\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCD3BD3-257D-49FC-985B-04D511AA3DEA}|holo_webapi.Model\\holo_webapi.Model.csproj|solutionrelative:holo_webapi.model\\entitys\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCD3BD3-257D-49FC-985B-04D511AA3DEA}|holo_webapi.Model\\holo_webapi.Model.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.model\\entitys\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCD3BD3-257D-49FC-985B-04D511AA3DEA}|holo_webapi.Model\\holo_webapi.Model.csproj|solutionrelative:holo_webapi.model\\entitys\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|solutionrelative:holo-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\Program.cs",
+              "RelativeDocumentMoniker": "holo-webapi\\Program.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\Program.cs",
+              "RelativeToolTip": "holo-webapi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T05:49:12.247Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Users.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.Model\\Entitys\\Users.cs",
+              "RelativeDocumentMoniker": "holo_webapi.Model\\Entitys\\Users.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.Model\\Entitys\\Users.cs",
+              "RelativeToolTip": "holo_webapi.Model\\Entitys\\Users.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:12:24.879Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.Model\\Entitys\\Order.cs",
+              "RelativeDocumentMoniker": "holo_webapi.Model\\Entitys\\Order.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.Model\\Entitys\\Order.cs",
+              "RelativeToolTip": "holo_webapi.Model\\Entitys\\Order.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:12:23.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Flower.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.Model\\Entitys\\Flower.cs",
+              "RelativeDocumentMoniker": "holo_webapi.Model\\Entitys\\Flower.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.Model\\Entitys\\Flower.cs",
+              "RelativeToolTip": "holo_webapi.Model\\Entitys\\Flower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:12:20.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ToolsController.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\Controllers\\ToolsController.cs",
+              "RelativeDocumentMoniker": "holo-webapi\\Controllers\\ToolsController.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\Controllers\\ToolsController.cs",
+              "RelativeToolTip": "holo-webapi\\Controllers\\ToolsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:36:47.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.Common\\DbContext.cs",
+              "RelativeDocumentMoniker": "holo_webapi.Common\\DbContext.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.Common\\DbContext.cs",
+              "RelativeToolTip": "holo_webapi.Common\\DbContext.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAADwvzwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:17:12.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "holo-webapi\\Controllers\\ImageController.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "holo-webapi\\Controllers\\ImageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:54:40.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
