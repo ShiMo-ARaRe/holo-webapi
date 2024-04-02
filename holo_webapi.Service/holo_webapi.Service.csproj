@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\holo_webapi.Common\holo_webapi.Common.csproj" />
     <ProjectReference Include="..\holo_webapi.Model\holo_webapi.Model.csproj" />
   </ItemGroup>

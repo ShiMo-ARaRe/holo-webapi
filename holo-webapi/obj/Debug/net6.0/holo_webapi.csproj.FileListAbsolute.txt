@@ -103,3 +103,5 @@ E:\全栈项目\自建\后端\holo-webapi\holo-webapi\obj\Debug\net6.0\refint\ho
 E:\全栈项目\自建\后端\holo-webapi\holo-webapi\obj\Debug\net6.0\holo_webapi.pdb
 E:\全栈项目\自建\后端\holo-webapi\holo-webapi\obj\Debug\net6.0\holo_webapi.genruntimeconfig.cache
 E:\全栈项目\自建\后端\holo-webapi\holo-webapi\obj\Debug\net6.0\ref\holo_webapi.dll
+E:\全栈项目\自建\后端\holo-webapi\holo-webapi\obj\Debug\net6.0\holo_webapi.sourcelink.json
+E:\全栈项目\自建\后端\holo-webapi\holo-webapi\bin\Debug\net6.0\AutoMapper.dll

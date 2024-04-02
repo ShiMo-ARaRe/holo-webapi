@@ -13,9 +13,9 @@ namespace holo_webapi.Controllers
         {
             List<ImageModel> list = new List<ImageModel>()
             {
-                new ImageModel(){ ImageUrl="/images/banners/21_birthday_banner_pc.jpg",CourseUrl="http://localhost:8081/" },
-                new ImageModel(){ ImageUrl="/images/banners/21_brand_banner_pc.jpg",CourseUrl="http://localhost:8081/" },
-                new ImageModel(){ ImageUrl="/images/banners/21_syz_banner_pc.jpg",CourseUrl="http://localhost:8081/" }
+                new ImageModel(){ ImageUrl="/images/banners/21_birthday_banner_pc.jpg",CourseUrl="http://localhost:8080/" },
+                new ImageModel(){ ImageUrl="/images/banners/21_brand_banner_pc.jpg",CourseUrl="http://localhost:8080/" },
+                new ImageModel(){ ImageUrl="/images/banners/21_syz_banner_pc.jpg",CourseUrl="http://localhost:8080/" }
             };
             return list;
         }

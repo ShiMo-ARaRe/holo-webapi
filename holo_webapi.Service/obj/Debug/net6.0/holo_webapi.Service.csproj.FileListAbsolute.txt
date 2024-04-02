@@ -15,3 +15,4 @@ E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\h
 E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\refint\holo_webapi.Service.dll
 E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\holo_webapi.Service.pdb
 E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\ref\holo_webapi.Service.dll
+E:\全栈项目\自建\后端\holo-webapi\holo_webapi.Service\obj\Debug\net6.0\holo_webapi.Service.sourcelink.json
