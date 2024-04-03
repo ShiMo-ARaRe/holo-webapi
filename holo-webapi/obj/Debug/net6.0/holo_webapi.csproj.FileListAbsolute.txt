@@ -105,3 +105,9 @@ E:\全栈项目\自建\后端\holo-webapi\holo-webapi\obj\Debug\net6.0\holo_weba
 E:\全栈项目\自建\后端\holo-webapi\holo-webapi\obj\Debug\net6.0\ref\holo_webapi.dll
 E:\全栈项目\自建\后端\holo-webapi\holo-webapi\obj\Debug\net6.0\holo_webapi.sourcelink.json
 E:\全栈项目\自建\后端\holo-webapi\holo-webapi\bin\Debug\net6.0\AutoMapper.dll
+E:\全栈项目\自建\后端\holo-webapi\holo-webapi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\全栈项目\自建\后端\holo-webapi\holo-webapi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\全栈项目\自建\后端\holo-webapi\holo-webapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\全栈项目\自建\后端\holo-webapi\holo-webapi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\全栈项目\自建\后端\holo-webapi\holo-webapi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\全栈项目\自建\后端\holo-webapi\holo-webapi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using holo_webapi.Model.Entitys;
 using holo_webapi.Service.Flower.Dto;
-//using holo_webapi.Service.User.Dto;
+using holo_webapi.Service.User.Dto;
 
 namespace holo_webapi.Service.Config
 {
@@ -25,9 +25,9 @@ namespace holo_webapi.Service.Config
             //提供的源类型 Flower 和目标类型 FlowerRes 的定义，它们的属性名称和类型完全一致。
             //在这种情况下，使用 AutoMapper 进行映射可能看起来似乎没有太多意义，因为属性的名称和类型已经匹配。
 
-            //CreateMap<Users, UserRes>(); // 这里映射就有意义了！因为返回给用户的数据不需要那么多，有的数据只是后端在用。
+            CreateMap<Users, UserRes>(); // 这里映射就有意义了！因为返回给用户的数据不需要那么多，有的数据只是后端在用。
 
-            //CreateMap<RegisterReq, Users>();
+            CreateMap<RegisterReq, Users>();
 
             //左边是源类型（Source Type），表示映射的源对象类型。
             //右边是目标类型（Destination Type），表示映射的目标对象类型。

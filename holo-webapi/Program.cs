@@ -5,8 +5,11 @@ holo_webapi.Common  工具层/辅助层/数据库访问层
 holo_webapi.Model   模型层
 */
 
+using holo_webapi.Model;
 using holo_webapi.Service.Config;
 using holo_webapi.Service.Flower;
+using holo_webapi.Service.Jwt;
+using holo_webapi.Service.User;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,8 +31,14 @@ builder.Services.AddCors(options =>
 这样就可以在其他地方通过 DI 容器来获取 AutoMapper 的实例，并使用定义好的映射关系进行对象的转换。*/
 builder.Services.AddAutoMapper(typeof(AutoMapperConfigs));
 
+//注册JWT
+builder.Services.Configure<JWTTokenOptions>(builder.Configuration.GetSection("JWTTokenOptions")); // 注册都别忘了！
+
 //注册Service层服务
 builder.Services.AddTransient<IFlowerService, FlowerService>();
+builder.Services.AddTransient<IUserService, UserService>();
+//builder.Services.AddTransient<IOrderService, OrderService>();
+builder.Services.AddTransient<ICustomJWTService, CustomJWTService>();
 
 var app = builder.Build();
 
