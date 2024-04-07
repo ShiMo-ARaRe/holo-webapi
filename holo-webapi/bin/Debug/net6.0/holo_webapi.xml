@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>holo_webapi</name>
+    </assembly>
+    <members>
+        <member name="M:holo_webapi.WebAPI.Controllers.LoginController.GetValidateCodeImages(System.String)">
+            <summary>
+            获取验证码
+            </summary>
+            <param name="t"></param>
+            <returns></returns>
+        </member>
+        <member name="M:holo_webapi.WebAPI.Controllers.LoginController.Check(holo_webapi.Service.User.Dto.UserReq)">
+            <summary>
+            登录
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:holo_webapi.WebAPI.Controllers.LoginController.Register(holo_webapi.Service.User.Dto.RegisterReq)">
+            <summary>
+            注册
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:holo_webapi.WebAPI.Controllers.OrderController.CreateOrder(holo_webapi.Service.Order.Dto.OrderReq)">
+            <summary>
+            创建订单
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:holo_webapi.WebAPI.Controllers.OrderController.GetOrder">
+            <summary>
+            获取订单列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:holo_webapi.WebAPI.Controllers.ToolsController">
+            <summary>
+            创建数据库，并创建表，并插入数据
+            </summary>
+        </member>
+        <member name="P:holo_webapi.ImageModel.ImageUrl">
+            <summary>
+            图片地址
+            </summary>
+        </member>
+        <member name="P:holo_webapi.ImageModel.CourseUrl">
+            <summary>
+            跳转链接
+            </summary>
+        </member>
+    </members>
+</doc>

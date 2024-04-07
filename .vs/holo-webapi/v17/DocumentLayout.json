@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\",
+  "WorkspaceRootPath": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|solutionrelative:holo-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E2CE1AE-2485-4237-B518-C2D511858291}|holo_webapi.Service\\holo_webapi.Service.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.service\\jwt\\customjwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2CE1AE-2485-4237-B518-C2D511858291}|holo_webapi.Service\\holo_webapi.Service.csproj|solutionrelative:holo_webapi.service\\jwt\\customjwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo-webapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|solutionrelative:holo-webapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29639683-24EB-46FE-A42B-8205B4CB66AA}|holo-webapi\\holo_webapi.csproj|solutionrelative:holo-webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2CE1AE-2485-4237-B518-C2D511858291}|holo_webapi.Service\\holo_webapi.Service.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo_webapi.service\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2CE1AE-2485-4237-B518-C2D511858291}|holo_webapi.Service\\holo_webapi.Service.csproj|solutionrelative:holo_webapi.service\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92613B6-7604-4761-ABD4-EE694C7F3E3F}|holo_webapi.Common\\holo_webapi.Common.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo_webapi.common\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92613B6-7604-4761-ABD4-EE694C7F3E3F}|holo_webapi.Common\\holo_webapi.Common.csproj|solutionrelative:holo_webapi.common\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2CE1AE-2485-4237-B518-C2D511858291}|holo_webapi.Service\\holo_webapi.Service.csproj|e:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo_webapi.service\\order\\dto\\orderreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2CE1AE-2485-4237-B518-C2D511858291}|holo_webapi.Service\\holo_webapi.Service.csproj|solutionrelative:holo_webapi.service\\order\\dto\\orderreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\Program.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo-webapi\\Program.cs",
               "RelativeDocumentMoniker": "holo-webapi\\Program.cs",
-              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\Program.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo-webapi\\Program.cs",
               "RelativeToolTip": "holo-webapi\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAABAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwDMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T13:02:35.781Z",
               "IsPinned": true,
@@ -52,28 +60,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomJWTService.cs",
-              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.Service\\Jwt\\CustomJWTService.cs",
-              "RelativeDocumentMoniker": "holo_webapi.Service\\Jwt\\CustomJWTService.cs",
-              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo_webapi.Service\\Jwt\\CustomJWTService.cs",
-              "RelativeToolTip": "holo_webapi.Service\\Jwt\\CustomJWTService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAhwCAAAAAVAAAA",
+              "DocumentIndex": 3,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo_webapi.Common\\DbContext.cs",
+              "RelativeDocumentMoniker": "holo_webapi.Common\\DbContext.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo_webapi.Common\\DbContext.cs",
+              "RelativeToolTip": "holo_webapi.Common\\DbContext.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAwEcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T06:47:48.792Z",
+              "WhenOpened": "2024-04-07T11:21:38.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderReq.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo_webapi.Service\\Order\\Dto\\OrderReq.cs",
+              "RelativeDocumentMoniker": "holo_webapi.Service\\Order\\Dto\\OrderReq.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo_webapi.Service\\Order\\Dto\\OrderReq.cs",
+              "RelativeToolTip": "holo_webapi.Service\\Order\\Dto\\OrderReq.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T03:00:27.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "holo-webapi\\Controllers\\LoginController.cs",
-              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\\u540E\u7AEF\\holo-webapi\\holo-webapi\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "holo-webapi\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAlwBEAAAAIAAAA",
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo_webapi.Service\\Order\\OrderService.cs",
+              "RelativeDocumentMoniker": "holo_webapi.Service\\Order\\OrderService.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo_webapi.Service\\Order\\OrderService.cs",
+              "RelativeToolTip": "holo_webapi.Service\\Order\\OrderService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T02:32:09.201Z",
+              "WhenOpened": "2024-04-07T01:51:54.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo-webapi\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "holo-webapi\\Controllers\\OrderController.cs",
+              "ToolTip": "E:\\\u5168\u6808\u9879\u76EE\\\u81EA\u5EFA\\holo-webapi\\holo-webapi\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "holo-webapi\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T01:58:32.228Z",
               "EditorCaption": ""
             }
           ]

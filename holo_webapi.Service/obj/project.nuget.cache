@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+9SuZgzu9JCJ4yrK5SRu6sPmysjK4drZ0DvKo5woYDeC2Pif/JpqqQBUJ0ukYHhAYWsA+gxBjoKikl9oEOjtwQ==",
+  "dgSpecHash": "wurcYQu8iAhrM3r9Jc+Ie7MW6ax9Zzdg7PMi3UZh+twaueoAJ1HPQS3Sy5lvZncfbSEYZJVbtgKn6NePAuaxbQ==",
   "success": true,
-  "projectFilePath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Service\\holo_webapi.Service.csproj",
+  "projectFilePath": "E:\\全栈项目\\自建\\holo-webapi\\holo_webapi.Service\\holo_webapi.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zhijiefei\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\zhijiefei\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

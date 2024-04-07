@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AF0cWLGpx8BZ37vUefv25SBcdXLiauaU0vsKhMCmsGSmv1k5lhOTJYITuKoSxFuf8XRb4LMEwqcjZusy8Z7Vvg==",
+  "dgSpecHash": "d7DTTYG6UWDauCmpfhjsHEAJoqJ/0jj3mtKhbJ86sqpSFQ3jHE38sRvHmGqgeQ4eLuDQGAbG4vVSsqACFBpcWw==",
   "success": true,
-  "projectFilePath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj",
+  "projectFilePath": "E:\\全栈项目\\自建\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zhijiefei\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\zhijiefei\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

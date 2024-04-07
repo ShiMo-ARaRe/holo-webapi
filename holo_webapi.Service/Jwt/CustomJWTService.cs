@@ -27,8 +27,8 @@ namespace holo_webapi.Service.Jwt
             详细配置见appsettings.json文件*/
         {
             _JWTTokenOptions = jwtTokenOptions.CurrentValue;
-            //必须注册JWT才能使用，不然下面打印均为空
-            Console.WriteLine($"{_JWTTokenOptions.Audience}--{_JWTTokenOptions.SecurityKey}--{_JWTTokenOptions.Issuer}");
+            //必须注册JWT才能使用，不然下面打印均为空，且之后肯定会报错
+            //Console.WriteLine($"{_JWTTokenOptions.Audience}--{_JWTTokenOptions.SecurityKey}--{_JWTTokenOptions.Issuer}");
         }
         /// <summary>
         /// 获取token

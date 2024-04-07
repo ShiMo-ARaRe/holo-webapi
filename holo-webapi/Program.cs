@@ -4,21 +4,52 @@ holo_webapi.Service 服务层
 holo_webapi.Common  工具层/辅助层/数据库访问层
 holo_webapi.Model   模型层
 */
-
 using holo_webapi.Model;
 using holo_webapi.Service.Config;
 using holo_webapi.Service.Flower;
 using holo_webapi.Service.Jwt;
+using holo_webapi.Service.Order;
 using holo_webapi.Service.User;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.ComponentModel;
+using System.Text;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
+using System.Text.Json; // 默认的JSON序列化库
+/*  这是一个功能更为强大的JSON序列化库，支持更多的特性和选项。
+    需要安装Newtonsoft.Json包和Microsoft.AspNetCore.Mvc.NewtonsoftJson包 */
+using Newtonsoft.Json; 
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddNewtonsoftJson(options =>
+{
+    //设置JSON返回日期格式
+    options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+    options.SerializerSettings.DateFormatString = "yyyy-MM-dd HH:mm:ss";
+});
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(option =>
+{
+    #region 配置展示注释
+    {
+        /* xml文档绝对路径 
+        AppContext.BaseDirectory是执行目录/根目录 */
+        var file = Path.Combine(AppContext.BaseDirectory, "holo_webapi.xml");
+        // file 是 XML 注释文件的路径，true 表示要启用控制器层的注释显示。
+        option.IncludeXmlComments(file, true);
+        // 对action的名称进行排序，如果有多个，就可以看见效果了。
+        option.OrderActionsBy(o => o.RelativePath);
+        /* 在这里，我们使用 o => o.RelativePath 的 lambda 表达式作为参数，表示按照动作的相对路径进行排序。
+          * 这样可以在 Swagger 文档中按照路径的顺序显示 API 动作，使其更加有序和易于查找。*/
+    }
+    #endregion
+});
 
 //添加跨域策略
 builder.Services.AddCors(options =>
@@ -37,8 +68,35 @@ builder.Services.Configure<JWTTokenOptions>(builder.Configuration.GetSection("JW
 //注册Service层服务
 builder.Services.AddTransient<IFlowerService, FlowerService>();
 builder.Services.AddTransient<IUserService, UserService>();
-//builder.Services.AddTransient<IOrderService, OrderService>();
+builder.Services.AddTransient<IOrderService, OrderService>();
 builder.Services.AddTransient<ICustomJWTService, CustomJWTService>();
+
+#region jwt校验 
+{
+    //第二步，增加鉴权逻辑
+    JWTTokenOptions tokenOptions = new JWTTokenOptions(); // 创建实例
+    // 将配置文件中的 "JWTTokenOptions" 节点的值绑定到 tokenOptions 对象。
+    builder.Configuration.Bind("JWTTokenOptions", tokenOptions);
+
+    builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)//Scheme
+     /* 并将其配置为使用 JWT Bearer 身份验证方案（JwtBearerDefaults.AuthenticationScheme）。
+      * 接下来，使用 .AddJwtBearer 方法来配置 JWT Bearer 身份验证的选项和逻辑。*/
+     .AddJwtBearer(options =>  //这里是配置的鉴权的逻辑
+     {
+         options.TokenValidationParameters = new TokenValidationParameters
+         {
+             //JWT有一些默认的属性，就是给鉴权时就可以筛选了
+             ValidateIssuer = true,//是否验证Issuer（签发者）
+             ValidateAudience = true,//是否验证Audience（受众）
+             ValidateLifetime = true,//是否验证失效时间
+             ValidateIssuerSigningKey = true,//是否验证SecurityKey （加密密钥）
+             ValidAudience = tokenOptions.Audience,//指定有效的 Audience 值，用于与 JWT 中的 Audience 进行比较验证。
+             ValidIssuer = tokenOptions.Issuer,    //指定有效的 Issuer 值，用于与 JWT 中的 Issuer 进行比较验证。
+             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenOptions.SecurityKey))//拿到SecurityKey （加密密钥）
+         };
+     });
+}
+#endregion
 
 var app = builder.Build();
 
@@ -49,7 +107,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseAuthorization();
+#region 鉴权授权
+app.UseAuthentication(); //鉴权    ----请求来的时候，把请求中带的token/Session/Cookies做解析，取出用户信息
+app.UseAuthorization();  //授权    --- 已经得到了用户信息，就可以通过用户信息来判定当前用户是否可以访问当前资源
+#endregion
 
 app.MapControllers();
 

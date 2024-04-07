@@ -3609,11 +3609,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj",
+      "projectUniqueName": "E:\\全栈项目\\自建\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj",
       "projectName": "holo_webapi.Common",
-      "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj",
+      "projectPath": "E:\\全栈项目\\自建\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj",
       "packagesPath": "C:\\Users\\zhijiefei\\.nuget\\packages\\",
-      "outputPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Common\\obj\\",
+      "outputPath": "E:\\全栈项目\\自建\\holo-webapi\\holo_webapi.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3634,8 +3634,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj": {
-              "projectPath": "E:\\全栈项目\\自建\\后端\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj"
+            "E:\\全栈项目\\自建\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj": {
+              "projectPath": "E:\\全栈项目\\自建\\holo-webapi\\holo_webapi.Model\\holo_webapi.Model.csproj"
             }
           }
         }
