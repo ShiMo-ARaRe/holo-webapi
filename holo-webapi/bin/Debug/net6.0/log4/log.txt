@@ -1,0 +1,11 @@
+2024-04-08 12:35:44,937 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5018
+2024-04-08 12:35:45,095 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-04-08 12:35:45,104 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-04-08 12:35:45,109 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\全栈项目\自建\holo-webapi\holo-webapi\
+2024-04-08 12:39:30,500 [30] INFO  holo_webapi.WebAPI.Controllers.OrderController - this is GetOrder。。。
+2024-04-08 12:39:42,253 [30] INFO  holo_webapi.WebAPI.Controllers.OrderController - this is GetOrder。。。
+2024-04-08 12:40:07,580 [30] INFO  holo_webapi.WebAPI.Controllers.OrderController - this is GetOrder。。。
+2024-04-08 12:40:42,753 [24] INFO  holo_webapi.WebAPI.Controllers.OrderController - this is GetOrder。。。
+2024-04-08 12:40:45,378 [31] INFO  holo_webapi.WebAPI.Controllers.OrderController - this is GetOrder。。。
+2024-04-08 12:49:08,033 [74] INFO  holo_webapi.WebAPI.Controllers.OrderController - this is GetOrder。。。
+2024-04-08 12:49:13,824 [75] INFO  holo_webapi.WebAPI.Controllers.OrderController - this is GetOrder。。。

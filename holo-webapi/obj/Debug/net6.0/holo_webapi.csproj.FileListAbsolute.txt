@@ -238,3 +238,15 @@ E:\全栈项目\自建\holo-webapi\holo-webapi\obj\Debug\net6.0\holo_webapi.xml
 E:\全栈项目\自建\holo-webapi\holo-webapi\obj\Debug\net6.0\holo_webapi.pdb
 E:\全栈项目\自建\holo-webapi\holo-webapi\obj\Debug\net6.0\holo_webapi.genruntimeconfig.cache
 E:\全栈项目\自建\holo-webapi\holo-webapi\obj\Debug\net6.0\ref\holo_webapi.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\Autofac.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\Config\log4net.Config
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\log4net.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\全栈项目\自建\holo-webapi\holo-webapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

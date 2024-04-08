@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("holo_webapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+233d3ab38152aff12f0a8f7d6f2d29815ca8d01e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f69a7ee5ad9cfe4ea5e184e27dd9f69d3658dc80")]
 [assembly: System.Reflection.AssemblyProductAttribute("holo_webapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("holo_webapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

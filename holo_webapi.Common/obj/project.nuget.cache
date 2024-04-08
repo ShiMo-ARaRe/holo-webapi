@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9EUNliqnZlf/xiAfNRk4ke2id4h58+TOfRVaho8mnyJVTdtsa5pnRgpFrdKCXjwZ8p6EojAFBZ1z58kAnzwaRg==",
+  "dgSpecHash": "MfftRth5T3f8Q2W7w9Nqn4sckk6dfBWGatJGKRl5pFmO8rmc33g4l9siALBsefsu/vJTWL2pTDrzWh83DY/HuQ==",
   "success": true,
   "projectFilePath": "E:\\全栈项目\\自建\\holo-webapi\\holo_webapi.Common\\holo_webapi.Common.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\zhijiefei\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
     "C:\\Users\\zhijiefei\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\zhijiefei\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\zhijiefei\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -40,7 +41,7 @@
     "C:\\Users\\zhijiefei\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\zhijiefei\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
     "C:\\Users\\zhijiefei\\.nuget\\packages\\system.data.common\\4.3.0\\system.data.common.4.3.0.nupkg.sha512",
-    "C:\\Users\\zhijiefei\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
+    "C:\\Users\\zhijiefei\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
     "C:\\Users\\zhijiefei\\.nuget\\packages\\system.diagnostics.performancecounter\\6.0.1\\system.diagnostics.performancecounter.6.0.1.nupkg.sha512",
     "C:\\Users\\zhijiefei\\.nuget\\packages\\system.directoryservices\\6.0.1\\system.directoryservices.6.0.1.nupkg.sha512",
     "C:\\Users\\zhijiefei\\.nuget\\packages\\system.directoryservices.protocols\\6.0.1\\system.directoryservices.protocols.6.0.1.nupkg.sha512",

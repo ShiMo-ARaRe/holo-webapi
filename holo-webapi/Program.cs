@@ -19,7 +19,10 @@ using System.Text.Unicode;
 using System.Text.Json; // 默认的JSON序列化库
 /*  这是一个功能更为强大的JSON序列化库，支持更多的特性和选项。
     需要安装Newtonsoft.Json包和Microsoft.AspNetCore.Mvc.NewtonsoftJson包 */
-using Newtonsoft.Json; 
+using Newtonsoft.Json;
+using Autofac.Extensions.DependencyInjection;
+using Autofac;
+using holo_webapi.Common;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -57,6 +60,9 @@ builder.Services.AddCors(options =>
     options.AddPolicy("CorsPolicy", opt => opt.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().WithExposedHeaders("X-Pagination"));
 });
 
+//注册日志
+builder.Logging.AddLog4Net("Config/log4net.Config"); // 报错的话就安装Microsoft.Extensions.Logging.Log4Net.AspNetCore包
+
 /* 注册Automapper
 将 AutoMapperConfigs 类型注册到 DI 容器中，以便在应用程序中使用 AutoMapper 进行对象映射。
 这样就可以在其他地方通过 DI 容器来获取 AutoMapper 的实例，并使用定义好的映射关系进行对象的转换。*/
@@ -65,11 +71,29 @@ builder.Services.AddAutoMapper(typeof(AutoMapperConfigs));
 //注册JWT
 builder.Services.Configure<JWTTokenOptions>(builder.Configuration.GetSection("JWTTokenOptions")); // 注册都别忘了！
 
-//注册Service层服务
-builder.Services.AddTransient<IFlowerService, FlowerService>();
-builder.Services.AddTransient<IUserService, UserService>();
-builder.Services.AddTransient<IOrderService, OrderService>();
-builder.Services.AddTransient<ICustomJWTService, CustomJWTService>();
+#region 依赖注入
+
+//方法一：直接注册Service层服务
+//builder.Services.AddTransient<IFlowerService, FlowerService>();
+//builder.Services.AddTransient<IUserService, UserService>();
+//builder.Services.AddTransient<IOrderService, OrderService>();
+//builder.Services.AddTransient<ICustomJWTService, CustomJWTService>();
+
+//方法二： Autofac注入
+builder.Host    // builder.Host是一个WebHostBuilder对象的属性，表示正在构建的Web主机实例。
+.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+/* 将Autofac的AutofacServiceProviderFactory设置为WebHostBuilder的服务提供程序工厂。
+   这意味着在构建Web主机时，将使用Autofac作为依赖注入容器。*/
+.ConfigureContainer<ContainerBuilder>(builder =>
+{/*
+    通过.ConfigureContainer<ContainerBuilder>(builder => { ... })方法，对容器进行配置。
+    这里使用了泛型重载，指定了ContainerBuilder作为配置容器的类型。
+
+    在这个配置过程中，调用了builder.RegisterModule(new AutofacModuleRegister())方法，
+    将AutofacModuleRegister注册为Autofac的模块。这样做是为了将AutofacModuleRegister中定义的依赖项注册逻辑应用到Autofac容器中。*/
+    builder.RegisterModule(new AutofacModuleRegister());
+});
+#endregion
 
 #region jwt校验 
 {
