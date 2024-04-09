@@ -80,7 +80,7 @@ namespace holo_webapi.Common
                 ,Type=1 },
                 new Flower(){ Title ="天宮（あまみや） こころ"
                 ,Image="/images/content/a2.jpg"
-                ,BigImage="/images/detail/202004091613483166.jpg"
+                ,BigImage="/images/detail/GIyJCYFbMAAAtpX.jpg"
                 ,Description="一名从2019年8月13日在YouTube开始活动的VTuber，所属业界团体彩虹社的成员"
                 ,Price=65
                 ,Language="巫女、萝莉、呆毛、斜刘海、双马尾、披肩双马尾、发饰、单腿袜、鸳鸯袜、飘带"
@@ -90,7 +90,7 @@ namespace holo_webapi.Common
                 ,Type=1 },
                 new Flower(){ Title ="天宮（あまみや） こころ"
                 ,Image="/images/content/a3.jpg"
-                ,BigImage="/images/detail/202004091613483166.jpg"
+                ,BigImage="/images/detail/GGcpDzpa8AAAxJr.jpg"
                 ,Description="一名从2019年8月13日在YouTube开始活动的VTuber，所属业界团体彩虹社的成员"
                 ,Price=65
                 ,Language="巫女、萝莉、呆毛、斜刘海、双马尾、披肩双马尾、发饰、单腿袜、鸳鸯袜、飘带"
@@ -100,7 +100,7 @@ namespace holo_webapi.Common
                 ,Type=1 },
                 new Flower(){ Title ="天宮（あまみや） こころ"
                 ,Image="/images/content/a4.jpg"
-                ,BigImage="/images/detail/202004091613483166.jpg"
+                ,BigImage="/images/detail/GCr1rugbwAAGnIr.jpg"
                 ,Description="一名从2019年8月13日在YouTube开始活动的VTuber，所属业界团体彩虹社的成员"
                 ,Price=203
                 ,Language="巫女、萝莉、呆毛、斜刘海、双马尾、披肩双马尾、发饰、单腿袜、鸳鸯袜、飘带"

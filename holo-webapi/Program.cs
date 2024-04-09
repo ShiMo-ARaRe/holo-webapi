@@ -125,11 +125,14 @@ builder.Host    // builder.Host是一个WebHostBuilder对象的属性，表示正在构建的Web
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
+
+app.UseSwagger();
+app.UseSwaggerUI(); // 生成模式也打开，方便测试
 
 #region 鉴权授权
 app.UseAuthentication(); //鉴权    ----请求来的时候，把请求中带的token/Session/Cookies做解析，取出用户信息
