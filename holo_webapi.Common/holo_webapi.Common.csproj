@@ -9,6 +9,8 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.0" />
+    <PackageReference Include="SkiaSharp" Version="2.88.8" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="2.88.8" />
     <PackageReference Include="SqlSugarCore" Version="5.1.4.149" />
   </ItemGroup>
 

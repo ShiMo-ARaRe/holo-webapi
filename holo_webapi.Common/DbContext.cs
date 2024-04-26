@@ -13,8 +13,12 @@ namespace holo_webapi.Common
     {
         public static SqlSugarClient db = new SqlSugarClient(new ConnectionConfig()
         {
-            ConnectionString = "Server=localhost;Port=3306;Database=hololive;Uid=root;Pwd=123456;", //连接符字串
+            ConnectionString = "Server=192.168.106.132;Port=3306;Database=hololive;Uid=root;Pwd=Feizhijie_23;", //MySQL连接符字串
             DbType = DbType.MySql, //数据库类型
+
+            //ConnectionString = "Server=localhost;Database=hololive;User Id=sa;Password=feizhijie23;", // SQL Server 连接字符串
+            //DbType = DbType.SqlServer, // 数据库类型设置为 SQL Server
+
             IsAutoCloseConnection = true //不设成true要手动close
         }); // 静态属性
 
