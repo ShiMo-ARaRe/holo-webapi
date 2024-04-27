@@ -110,10 +110,10 @@ namespace holo_webapi.Common
                         textPaint.IsAntialias = true;
                         textPaint.TextSize = height * 0.8f; // 设置文本大小  
                         textPaint.StrokeWidth = 3;
-
-                        // 设置随机字体
-                        //string[] fontName = { "华文新魏", "宋体", "圆体", "黑体", "隶书" };
-                        //textPaint.Typeface = SKTypeface.FromFamilyName(fontName[random.Next(fontName.Length)], SKFontStyleWeight.Bold, SKFontStyleWidth.Normal, SKFontStyleSlant.Italic);
+                        
+                        //设置随机字体
+                        string[] fontName = { "华文新魏", "宋体", "华为琥珀", "黑体", "隶书" };
+                        textPaint.Typeface = SKTypeface.FromFamilyName(fontName[random.Next(fontName.Length)], SKFontStyleWeight.Bold, SKFontStyleWidth.Normal, SKFontStyleSlant.Italic);
 
                         var textBounds = new SKRect();
                         textPaint.MeasureText(validateCode[i].ToString(), ref textBounds);
