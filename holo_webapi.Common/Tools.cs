@@ -133,7 +133,7 @@ namespace holo_webapi.Common
                     linePaint.IsAntialias = true;
 
 
-                    for (int i = 0; i < 20; i++) // 绘制20条干扰线  
+                    for (int i = 0; i < 25; i++) // 绘制20条干扰线  
                     {
                         float x1 = random.Next(width);
                         float y1 = random.Next(height);
