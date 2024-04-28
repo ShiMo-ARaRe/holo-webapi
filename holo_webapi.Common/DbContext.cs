@@ -13,7 +13,7 @@ namespace holo_webapi.Common
     {
         public static SqlSugarClient db = new SqlSugarClient(new ConnectionConfig()
         {
-            ConnectionString = "Server=192.168.106.132;Port=3306;Database=hololive;Uid=root;Pwd=Feizhijie_23;", //MySQL连接符字串
+            ConnectionString = "Server=120.76.99.240;Port=3306;Database=hololive;Uid=root;Pwd=Feizhijie_23;", //MySQL连接符字串
             DbType = DbType.MySql, //数据库类型
 
             //ConnectionString = "Server=localhost;Database=hololive;User Id=sa;Password=feizhijie23;", // SQL Server 连接字符串
@@ -34,7 +34,9 @@ namespace holo_webapi.Common
                 使用 GetTypes() 方法获取程序集中所有的类型。
                 使用 LINQ 表达式 Where(p => p.Namespace == nspace) 过滤出命名空间为 "holo_webapi.Model.Entitys" 的类型。
                 使用 ToArray() 方法将过滤后的类型转换为 Type 数组，并将结果赋值给 ass 变量。*/
-            Type[] ass = Assembly.LoadFrom("bin/Debug/net6.0/holo_webapi.Model.dll").GetTypes().Where(p => p.Namespace == nspace).ToArray();
+            //Type[] ass = Assembly.LoadFrom("bin/Debug/net6.0/holo_webapi.Model.dll").GetTypes().Where(p => p.Namespace == nspace).ToArray(); //这个在容器执行会出问题
+            Type[] ass = Assembly.Load("holo_webapi.Model").GetTypes().Where(p => p.Namespace == nspace).ToArray(); //如果程序集的名称是唯一的，并且不依赖于文件路径，可以使用程序集的名称来加载它。
+
             /* 反射
                 在C#中，Type是一个表示类型的类。它提供了关于类型的元数据信息，包括成员、属性、方法和事件等。
                 以下是Type的一些关键属性和方法的解释：
